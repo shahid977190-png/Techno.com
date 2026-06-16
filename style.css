@@ -1,0 +1,93 @@
+/* ===== TECHNO PREMIUM STYLE ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(-45deg,#0f172a,#1e3a8a,#2563eb,#06b6d4);
+    background-size:400% 400%;
+    animation:bgmove 12s ease infinite;
+    color:white;
+    min-height:100vh;
+}
+
+@keyframes bgmove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:4rem;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    text-shadow:0 0 20px rgba(255,255,255,0.5);
+}
+
+header p{
+    font-size:1.2rem;
+    opacity:.9;
+}
+
+section{
+    width:90%;
+    max-width:1000px;
+    margin:25px auto;
+    padding:25px;
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(12px);
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.2);
+    transition:.4s;
+}
+
+section:hover{
+    transform:translateY(-8px);
+}
+
+h2{
+    margin-bottom:15px;
+    color:#fff;
+}
+
+img{
+    display:block;
+    margin:15px auto;
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:4px solid white;
+    box-shadow:0 0 25px rgba(255,255,255,.5);
+}
+
+button{
+    background:white;
+    color:#2563eb;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.08);
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    margin-top:30px;
+    background:rgba(0,0,0,.25);
+}
